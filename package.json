@@ -1,0 +1,17 @@
+{
+	"name": "millennium_quest",
+	"version": "1.0.0",
+	"description": "ブルーアーカイブ『MILLENNIUM QUEST』",
+	"main": "main.js",
+	"scripts": {
+		"test": "electron .",
+		"package": "electron-packager ./ MillenniumQuest --platform=win32 --arch=x64 --electron-version 23.2.1 --overwrite --icon=./TemplateData/favicon.ico"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^23.2.1",
+		"electron-builder": "^23.6.0",
+		"electron-packager": "^17.1.1"
+	}
+}
